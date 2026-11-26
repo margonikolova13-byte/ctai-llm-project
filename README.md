@@ -1,4 +1,3 @@
-# ctai-llm-project
 # Adaptive English Tutor: Tracking Learner Frustration Across a Conversation
  
 Individual project for **Core Topics in AI 2026** (group: *LLMs in Education*).
