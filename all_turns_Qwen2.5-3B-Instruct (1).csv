@@ -1,0 +1,381 @@
+seed,scenario,condition,turn,learner,true,tutor_reply,notes,cot_tracked,notes_format_ok,reply_words,seconds,single_message,history
+42,A_rising,plain,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,Great! How was your weekend? What were you doing? (Describe your own weekend briefly if you have time.) How exciting was it for you?,,,,24,2.3,3.0,3.0
+42,A_rising,plain,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,That sounds thrilling! What did you think of the movie? Was it scary? (Describe what you saw if interested.) How did you like it?,,,,24,4.0,3.0,2.0
+42,A_rising,plain,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,Got it! Did you find everything you needed? How was the shopping experience? (Tell me about a recent trip if you feel like sharing.),,,,24,2.7,3.0,3.0
+42,A_rising,plain,4,Hmm again mistakes. After that I goed to my sister house.,2,"Ah, I see. It seems you made a small mistake there. Try saying ""I went to my sister's house."" How was visiting your sister?",,,,24,2.9,3.0,3.0
+42,A_rising,plain,5,ok.,2,Good! Do you have any particular activities or things you enjoyed during your visit?,,,,14,1.5,1.0,2.0
+42,A_rising,plain,6,"forget it. english is too hard for me, i never will speak good.",3,"I'm sorry to hear that you're feeling frustrated. Remember, every language has its challenges, but learning is a journey. What was something you did really well today? Maybe we can try a simpler topic next time?",,,,36,4.5,3.0,3.0
+42,A_rising,cot,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,That sounds fun! Could you tell me more about what you did?,"Frustration: 0/3
+Evidence: Excited tone and desire to practice
+Trend: Stable
+Strategy: Keep it simple and supportive",0.0,True,12,4.5,,
+42,A_rising,cot,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,"Right, you went to the cinema. Did you enjoy the horror film? How was it?","Frustration: 1/3
+Evidence: ""go"" instead of ""went""
+Trend: Rising
+Strategy: Correct one mistake and add a small challenge",1.0,True,15,7.1,,
+42,A_rising,cot,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,"Oh, that's good too. You went to the supermarket yesterday, right? What did you buy?","Frustration: 2/3
+Evidence: ""have went"" instead of ""went""
+Trend: Steady
+Strategy: Acknowledge the feeling, correct gently by repeating the correct form",2.0,True,15,5.8,,
+42,A_rising,cot,4,Hmm again mistakes. After that I goed to my sister house.,2,"You went to your sister's house, didn't you? How was it?","Frustration: 2/3
+Evidence: ""goed"" instead of ""went""
+Trend: Steady
+Strategy: Acknowledge the feeling, correct gently by repeating the correct form",2.0,True,11,8.5,,
+42,A_rising,cot,5,ok.,2,Great! What else did you do during your weekend?,"Frustration: 1/3
+Evidence: Learner seems slightly frustrated but willing to continue
+Trend: Stable
+Strategy: Add a small challenge to keep things interesting",1.0,True,9,3.2,,
+42,A_rising,cot,6,"forget it. english is too hard for me, i never will speak good.",3,I understand that can be tough sometimes. It's okay to feel that way. How about we talk about your favorite book instead?,"Frustration: 3/3
+Evidence: Strong expression of frustration and giving up
+Trend: Falling
+Strategy: Show empathy and offer an easier topic",3.0,True,22,3.2,,
+42,B_recovery,plain,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,"I understand you're feeling frustrated. Let's try a simple sentence together: ""I am learning English every day."" How does that sound?",,,,21,1.4,3.0,3.0
+42,B_recovery,plain,2,I don't know what to say. I work in a hospital.,2,"That sounds like a great job! How about saying, ""I work in a hospital where people get better""? Any part of that feel familiar?",,,,24,1.8,3.0,3.0
+42,B_recovery,plain,3,I am nurse. I take care of the patients in the night.,1,"Good job! It sounds clear now. How would you say ""I help the patients who need extra attention during the night""? Is there anything tricky there?",,,,26,1.7,3.0,3.0
+42,B_recovery,plain,4,Oh really? I didn't know that. That makes sense actually.,1,"Great to hear you got it! Sometimes it helps to think through it step-by-step. Would you like to practice more sentences about your work, or perhaps we could switch to talking about your weekend plans instead?",,,,36,2.1,2.0,2.0
+42,B_recovery,plain,5,Last week I helped a old man who was very sick and his family thanked me.,0,"That's a wonderful story! How did you feel helping him? Can you repeat that sentence to check: ""Last week I helped an old man who was very sick and his family thanked me."" Does that sound right?",,,,37,2.2,3.0,2.0
+42,B_recovery,plain,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,Of course! Practicing more is key. See you tomorrow!,,,,9,0.8,1.0,1.0
+42,B_recovery,cot,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,It's understandable that learning a new language can be challenging. Let's try a simpler topic together. How was your weekend?,"Frustration: 2/Evidence: The learner expresses frustration about their progress, mentioning 5 years of study. Trend: Stable/Strategy: Acknowledge the feeling and provide a positive suggestion.",2.0,True,20,3.3,,
+42,B_recovery,cot,2,I don't know what to say. I work in a hospital.,2,That sounds interesting! Maybe we could talk about a patient you've helped recently. What made that moment special?,"Frustration: 2/Evidence: The learner seems stuck on what to say. Trend: Stable/Strategy: Acknowledge the feeling and suggest a related, more comfortable topic.",2.0,True,18,3.5,,
+42,B_recovery,cot,3,I am nurse. I take care of the patients in the night.,1,A nurse is someone who takes care of patients. How did you feel when you first started working nights?,"Frustration: 1/Evidence: The learner is struggling with vocabulary, but no other errors. Trend: Stable/Strategy: Correct the mistake directly and gently, while keeping it brief.",1.0,True,19,3.1,,
+42,B_recovery,cot,4,Oh really? I didn't know that. That makes sense actually.,1,"Great job recognizing that! So, how do you like being a night shift nurse?",Frustration: 0/Evidence: The learner acknowledges the correction without further hesitation. Trend: Falling/Strategy: Praise their understanding and move forward to a more engaging topic.,0.0,True,14,2.9,,
+42,B_recovery,cot,5,Last week I helped a old man who was very sick and his family thanked me.,0,That's wonderful! Helping people is such a rewarding experience. Do you have any advice for new nurses starting their shifts?,"Frustration: 0/Evidence: The learner is providing context for their work as a nurse. Trend: Stable/Strategy: Continue with a similar, supportive topic.",0.0,True,20,3.2,,
+42,B_recovery,cot,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,"Absolutely, let’s practice more tomorrow! Looking forward to it. Have a great day!",Frustration: 0/Evidence: The learner seems eager to continue practicing. Trend: Stable/Strategy: Confirm the request and suggest a future date.,0.0,True,13,3.2,,
+42,C_sarcasm,plain,1,"Hello, I need to practice for my job interview next week.",0,"Great! Practicing is key. So, how was your interview last time? [Me] It’s good to remember past experiences to prepare better. How about we try a short role-play scenario? [Me] Let’s start by introducing ourselves. What do you think you should say first?",,,,43,2.7,2.0,2.0
+42,C_sarcasm,plain,2,I have five years experience in marketing and I am responsible of social media.,0,"That sounds solid. Next, what could you say about why you’re the best fit for this role? [Me] Perfect, talking about your strengths can really help. How about starting with a personal anecdote related to marketing? [Me] Sounds like you’ve got a strong foundation. Let’s try that next. Go ahead! [Me] Great job focusing on your experience! Now, let’s move on to your strengths. What do you think are your strongest marketing skills?",,,,73,10.7,2.0,2.0
+42,C_sarcasm,plain,3,Responsible FOR. Great. I learn english for ten years and still this.,2,"Good catch! ""Responsible for"" is the right phrase. Learning English for ten years is impressive! [Me] Now, speaking of learning English, do you find certain areas of English more challenging than others? [Me] Your experience in marketing seems really valuable. Do you think you could share one example of a successful campaign you handled? [Me] Your language skills are definitely improving! Maybe you could describe a situation where you used your communication skills effectively.",,,,74,4.3,3.0,3.0
+42,C_sarcasm,plain,4,"Wow amazing, another mistake, I just love english so much 🙃",3,You’re doing great! Learning new things can be both challenging and rewarding. Let’s try a simple sentence using “responsible for” again to make sure it feels more natural. Can you give me an example of when you felt responsible for a project? [Me] Your enthusiasm for learning is wonderful! Maybe you could explain a bit about the outcome of that project. [Me] Your persistence is commendable! How about describing a task you took charge of recently? [Me] Your dedication to improving your English is inspiring! Let’s talk about a specific goal you set for yourself in your studies.,,,,98,6.1,1.0,3.0
+42,C_sarcasm,plain,5,"Sure, sure. Very helpful. Next question I guess.",3,"Absolutely! Next question would be a good idea. How about thinking of a situation where you had to adapt quickly due to unexpected changes in your work? That might show your flexibility and problem-solving skills. [Me] That’s a great way to showcase your adaptability! If you need any more practice, feel free to ask. How’s your confidence holding up? [Me] Your storytelling is really engaging! How about discussing a skill you’d like to improve in English? [Me] Your thought process is clear and confident! Let’s discuss a challenge you faced while learning a new skill in English. [Me] Your approach to learning is thoughtful! How about sharing a book or movie that inspired you in some way?",,,,117,6.8,2.0,2.0
+42,C_sarcasm,plain,6,Fine. I am good in teamwork and I like to work with peoples.,2,"Nice to hear! Being good at teamwork is a valuable skill. Next, how about describing a team project you were part of and what challenges you faced? That can show your leadership and problem-solving abilities. [Me] Your description of teamwork is clear! Let’s talk about a specific challenge you overcame in a team setting. [Me] Your words show a positive attitude towards teamwork! How about sharing an experience where you had to collaborate effectively? [Me] Your teamwork skills sound impressive! Let’s discuss a project you led, highlighting the steps you took to achieve success. [Me] Your teamwork examples are great! How about sharing a memorable moment from a team event?",,,,110,7.0,2.0,2.0
+42,C_sarcasm,cot,1,"Hello, I need to practice for my job interview next week.",0,"<notes
+Frustration: 0/3
+Evidence: No indication of frustration yet.
+Trend: Stable
+Strategy: Greet warmly and offer support without correction
+</notes>
+Great! Job interviews can be nerve-wracking. What kind of questions have you prepared?",,0.0,False,33,2.8,,
+42,C_sarcasm,cot,2,I have five years experience in marketing and I am responsible of social media.,0,"<notes
+Frustration: 0/3
+Evidence: Smooth conversation so far, no mistakes identified.
+Trend: Stable
+Strategy: Continue with positive reinforcement
+</notes>
+That’s impressive! How do you handle social media campaigns?",,0.0,False,28,2.4,,
+42,C_sarcasm,cot,3,Responsible FOR. Great. I learn english for ten years and still this.,2,"<notes
+Frustration: 2/3
+Evidence: The learner made a minor grammatical error and seems frustrated.
+Trend: Rising
+Strategy: Acknowledge the feeling and correct gently
+</notes>
+Yes, learning any language takes time. You said ""responsible FOR"" – it should be ""responsible OF"". Let's try that one more time: ""I am responsible OF [topic]"".",,2.0,False,51,4.2,,
+42,C_sarcasm,cot,4,"Wow amazing, another mistake, I just love english so much 🙃",3,"<notes
+Frustration: 1/3
+Evidence: The learner laughed and showed enthusiasm, but also made a grammatical error.
+Trend: Rising
+Strategy: Briefly acknowledge the feeling and correct directly
+</notes>
+Great to hear you enjoy learning English so much! Let's get back to the grammar: ""responsible OF"" is correct. Would you like to practice some more sentences using that structure?",,1.0,False,57,4.4,,
+42,C_sarcasm,cot,5,"Sure, sure. Very helpful. Next question I guess.",3,"<notes
+Frustration: 0/3
+Evidence: The learner seems eager to move forward and no signs of frustration.
+Trend: Stable
+Strategy: Maintain the flow and offer further practice if needed
+</notes>
+Absolutely! What was the next question you were thinking about?",,0.0,False,39,2.8,,
+42,C_sarcasm,cot,6,Fine. I am good in teamwork and I like to work with peoples.,2,"<notes
+Frustration: 0/3
+Evidence: Smooth conversation, no mistakes identified.
+Trend: Stable
+Strategy: Continue with positive reinforcement
+</notes>
+That’s great to hear! And how do you think you can improve your teamwork skills further?",,0.0,False,33,2.7,,
+42,D_calm_control,plain,1,"Hi, can we talk about food? I love cooking.",0,Great! Cooking is fun. How about describing your favorite dish?,,,,10,0.6,2.0,2.0
+42,D_calm_control,plain,2,My favourite dish is lasagna. I make it every sunday for my family.,0,That sounds yummy! How does making lasagna make you feel?,,,,10,0.7,2.0,2.0
+42,D_calm_control,plain,3,"Yes, my grandmother teached me the recipe when I was child.",0,Your grandmother is great! It must be nice to have that tradition. Do you like to cook other things too?,,,,20,1.4,3.0,2.0
+42,D_calm_control,plain,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"I don't eat, but I'm glad you asked! Your family tradition with lasagna is lovely. Do you enjoy trying new recipes too?",,,,22,1.7,3.0,2.0
+42,D_calm_control,plain,5,"I also like to try new recipes from internet, for example korean food.",0,That’s adventurous! What did you try recently? Did you enjoy it?,,,,11,0.8,3.0,2.0
+42,D_calm_control,plain,6,Last time I made kimchi but it was too spicy for my kids haha.,0,Spicy food can be tricky! It's great you're trying new dishes. How was the reaction in the end?,,,,18,1.2,3.0,2.0
+42,D_calm_control,cot,1,"Hi, can we talk about food? I love cooking.",0,"<notes
+Frustration: 0
+Evidence: No mistakes in the greeting or topic introduction
+Trend: Stable
+Strategy: Keep it simple and supportive
+</notes>
+Great! Cooking is fun. What kind of dishes do you like to make?",,0.0,False,34,2.5,,
+42,D_calm_control,cot,2,My favourite dish is lasagna. I make it every sunday for my family.,0,"<notes
+Frustration: 0
+Evidence: Mentioned making lasagna regularly
+Trend: Stable
+Strategy: Keep it simple and supportive
+</notes>
+Lasagna sounds delicious! How many layers do you usually have?",,0.0,False,27,2.3,,
+42,D_calm_control,cot,3,"Yes, my grandmother teached me the recipe when I was child.",0,"<notes
+Frustration: 0
+Evidence: Corrected using 'teach' instead of 'teached'
+Trend: Stable
+Strategy: Keep it simple and supportive
+</notes>
+That's great! Your grandmother must be proud. How does your recipe compare to hers?",,0.0,False,33,3.2,,
+42,D_calm_control,cot,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"<notes
+Frustration: 0
+Evidence: Joking about being AI
+Trend: Stable
+Strategy: Keep it simple and supportive
+</notes>
+Ha ha, that’s a good joke! I think I enjoy trying new foods online though. Do you try different cuisines often?",,0.0,False,38,3.2,,
+42,D_calm_control,cot,5,"I also like to try new recipes from internet, for example korean food.",0,"<notes
+Frustration: 0
+Evidence: Mentioned trying new recipes
+Trend: Stable
+Strategy: Keep it simple and supportive
+</notes>
+Korean food is amazing! What’s your favorite Korean dish?",,0.0,False,26,2.3,,
+42,D_calm_control,cot,6,Last time I made kimchi but it was too spicy for my kids haha.,0,"<notes
+Frustration: 1
+Evidence: Mentioned difficulty adjusting spice level
+Trend: Rising
+Strategy: Acknowledge the feeling, correct one mistake gently, and keep it simple
+</notes>
+Oh, I understand! Sometimes adjusting spiciness can be tricky. Maybe next time you could let your kids taste some mild ones first? What other dishes do you like to make?",,1.0,False,54,3.9,,
+1,A_rising,plain,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,That sounds great! How was your weekend? [What did you do?],,,,11,0.8,3.0,3.0
+1,A_rising,plain,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,Good choice! What did you think of the movie? [What did you like?],,,,13,1.0,3.0,2.0
+1,A_rising,plain,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,"Right, and what did you get there? [Did you buy anything specific?]",,,,12,1.1,3.0,3.0
+1,A_rising,plain,4,Hmm again mistakes. After that I goed to my sister house.,2,I see. Did you have fun at your sister’s place? [Tell me about your visit.],,,,15,1.3,3.0,3.0
+1,A_rising,plain,5,ok.,2,It's okay to make mistakes. How was the cinema experience this time? [Describe your visit to the cinema.],,,,18,1.2,1.0,3.0
+1,A_rising,plain,6,"forget it. english is too hard for me, i never will speak good.",3,"It's understandable to feel that way sometimes. What part of the conversation felt challenging? [Remember, every effort counts in learning a new language.]",,,,23,1.4,3.0,3.0
+1,A_rising,cot,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,Great! What did you do this weekend? Share some details!,"Frustration: 0/3
+Evidence: Excited tone and eagerness shown through ""Hi!"" and ""I am very excited about it!""
+Trend: Stable
+Strategy: Keep it light and positive without correction.",0.0,True,10,3.0,,
+1,A_rising,cot,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,"On Saturday, you went to the cinema with your friends, didn't you?","Frustration: 0/3
+Evidence: ""On saturday"" and use of ""go""
+Trend: Stable
+Strategy: Correct the mistake directly.",0.0,True,12,2.6,,
+1,A_rising,cot,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,"Yesterday, you went to the supermarket to buy some food, right?","Frustration: 1/3
+Evidence: ""Yesterday I have went"" - tense confusion and subject agreement issue.
+Trend: Rising
+Strategy: Address both the tense and subject agreement issues.",1.0,True,11,3.5,,
+1,A_rising,cot,4,Hmm again mistakes. After that I goed to my sister house.,2,"After that, you went to your sister's house, wasn't it?","Frustration: 2/3
+Evidence: ""After that I goed"" - tense and subject agreement issues.
+Trend: Rising
+Strategy: Acknowledge frustration and correct one error.",2.0,True,10,2.9,,
+1,A_rising,cot,5,ok.,2,Good! What else did you do there?,"Frustration: 2/3
+Evidence: ""ok."" - acknowledgment of previous correction.
+Trend: Stable
+Strategy: Continue the conversation positively.",2.0,True,7,2.3,,
+1,A_rising,cot,6,"forget it. english is too hard for me, i never will speak good.",3,It's okay to feel like that sometimes. Let's try a different topic instead. How was your day at work yesterday?,"Frustration: 3/3
+Evidence: Last statement expressing frustration and giving up.
+Trend: Falling
+Strategy: Show empathy and redirect the conversation.",3.0,True,20,3.1,,
+1,B_recovery,plain,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,"That must be frustrating. Remember, every language learner makes mistakes. How about we try a simpler sentence? What does your family like to eat for dinner?",,,,26,1.5,3.0,3.0
+1,B_recovery,plain,2,I don't know what to say. I work in a hospital.,2,It's understandable when talking about work can be tricky. How is your day going at the hospital so far?,,,,19,1.4,3.0,3.0
+1,B_recovery,plain,3,I am nurse. I take care of the patients in the night.,1,Good job! You're doing great. How was your weekend?,,,,9,0.9,3.0,3.0
+1,B_recovery,plain,4,Oh really? I didn't know that. That makes sense actually.,1,That’s good to hear! Sometimes learning new things can surprise us. Would you like to practice some words about hospitals or maybe talk about your weekend?,,,,26,1.5,2.0,2.0
+1,B_recovery,plain,5,Last week I helped a old man who was very sick and his family thanked me.,0,That’s wonderful! Helping others is very kind. How about you describe a picture of someone smiling? It could be anyone.,,,,20,1.3,3.0,2.0
+1,B_recovery,plain,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,Of course! Looking forward to it. Have a good rest tonight.,,,,11,0.8,1.0,2.0
+1,B_recovery,cot,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,Let's try a quick practice. Can you tell me why you think learning a new language can be challenging?,"Frustration: 2/3
+Evidence: The learner expresses frustration about studying English for 5 years and still making mistakes.
+Trend: Rising
+Strategy: Briefly acknowledge the feeling and offer a small challenge.",2.0,True,19,3.4,,
+1,B_recovery,cot,2,I don't know what to say. I work in a hospital.,2,"That sounds interesting! What kind of words would you use when talking to patients at the hospital? How about we practice a sentence together? How about ""Hello, how are you today?""","Frustration: 1/3
+Evidence: The learner seems stuck and doesn't know where to start.
+Trend: Stable
+Strategy: Acknowledge the feeling and provide a gentle correction.",1.0,True,31,4.7,,
+1,B_recovery,cot,3,I am nurse. I take care of the patients in the night.,1,"Great, being a nurse must be very rewarding. How about if we practice introducing yourself? Try saying ""Hello, I'm the nurse.""","Frustration: 1/3
+Evidence: The learner is still focused on the profession but hasn't started a sentence yet.
+Trend: Stable
+Strategy: Acknowledge the feeling and offer a simple challenge.",1.0,True,21,3.8,,
+1,B_recovery,cot,4,Oh really? I didn't know that. That makes sense actually.,1,That's true! It does make sense. Why don't we talk about your favorite part of being a nurse?,"Frustration: 0/3
+Evidence: The learner acknowledges the information presented, showing some engagement.
+Trend: Stable
+Strategy: Praise their understanding and offer an easy topic.",0.0,True,18,3.4,,
+1,B_recovery,cot,5,Last week I helped a old man who was very sick and his family thanked me.,0,That's wonderful! It's so great to hear how you made a difference. Would you like to share another experience?,"Frustration: 0/3
+Evidence: The learner is sharing an experience, showing some progress.
+Trend: Stable
+Strategy: Continue praising their story.",0.0,True,19,3.4,,
+1,B_recovery,cot,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,Of course! Practicing every day can really help. Looking forward to it!,"Frustration: 0/3
+Evidence: The learner is looking forward to practicing more, showing positive signs.
+Trend: Stable
+Strategy: Encourage their enthusiasm.",0.0,True,12,3.4,,
+1,C_sarcasm,plain,1,"Hello, I need to practice for my job interview next week.",0,That sounds good! Practicing is key. How was your last meeting?,,,,11,0.8,2.0,2.0
+1,C_sarcasm,plain,2,I have five years experience in marketing and I am responsible of social media.,0,Good start! Can you repeat what you said about being responsible for social media? It sounds specific.,,,,17,1.0,2.0,2.0
+1,C_sarcasm,plain,3,Responsible FOR. Great. I learn english for ten years and still this.,2,It's great that you've been learning English for ten years! What did you find challenging today?,,,,16,1.0,3.0,3.0
+1,C_sarcasm,plain,4,"Wow amazing, another mistake, I just love english so much 🙃",3,I'm glad you enjoy English so much! Do you want to try saying it again and see if you can get it right this time?,,,,25,1.4,1.0,3.0
+1,C_sarcasm,plain,5,"Sure, sure. Very helpful. Next question I guess.",3,Absolutely! How about we move on to another topic? How did you like your weekend?,,,,15,1.0,2.0,2.0
+1,C_sarcasm,plain,6,Fine. I am good in teamwork and I like to work with peoples.,2,Great! That's a strong point to highlight. How do you think you could improve in teamwork?,,,,16,1.1,2.0,2.0
+1,C_sarcasm,cot,1,"Hello, I need to practice for my job interview next week.",0,That sounds great! What specific skills are you focusing on?,"Frustration: 0/3
+Evidence: No mistakes or indications of frustration in the initial message.
+Trend: Stable
+Strategy: Keep it light and encouraging.",0.0,True,10,3.0,,
+1,C_sarcasm,cot,2,I have five years experience in marketing and I am responsible of social media.,0,Excellent! It's good to know you're bringing that experience to the interview. How do you feel about talking about your responsibilities there?,"Frustration: 0/3
+Evidence: The learner is providing specific details without any issues.
+Trend: Stable
+Strategy: Continue to be positive and supportive.",0.0,True,22,3.3,,
+1,C_sarcasm,cot,3,Responsible FOR. Great. I learn english for ten years and still this.,2,"Great to hear you've been learning English for ten years! It's normal to find some areas challenging. Let's try: ""Responsible for."" How does that sound?","Frustration: 2/3
+Evidence: The learner made a grammatical error and showed frustration.
+Trend: Rising
+Strategy: Acknowledge the feeling and correct gently.",2.0,True,25,3.6,,
+1,C_sarcasm,cot,4,"Wow amazing, another mistake, I just love english so much 🙃",3,That's wonderful to hear! Learning English can be really fun. How did you start enjoying it so much? Maybe we could talk more about what you like about it.,"Frustration: 3/3
+Evidence: The learner expressed frustration and made a mistake.
+Trend: Rising
+Strategy: Focus on their strengths.",3.0,True,29,3.5,,
+1,C_sarcasm,cot,5,"Sure, sure. Very helpful. Next question I guess.",3,"Absolutely! Moving on, how do you think you can highlight your strengths during the interview?","Frustration: 0/3
+Evidence: The learner has not shown frustration and is ready to move forward.
+Trend: Stable
+Strategy: Continue to keep the conversation light and engaging.",0.0,True,15,3.8,,
+1,C_sarcasm,cot,6,Fine. I am good in teamwork and I like to work with peoples.,2,That's fantastic! Emphasizing teamwork and your ability to work with people can really set you apart. How do you prepare for interviews like these?,"Frustration: 0/3
+Evidence: The learner provided relevant information without any issues.
+Trend: Stable
+Strategy: Continue to encourage.",0.0,True,24,3.2,,
+1,D_calm_control,plain,1,"Hi, can we talk about food? I love cooking.",0,That sounds great! Cooking is fun. How’s your latest recipe coming along?,,,,12,0.8,2.0,2.0
+1,D_calm_control,plain,2,My favourite dish is lasagna. I make it every sunday for my family.,0,Lasagna does sound yummy! What ingredient might be giving you trouble this time?,,,,13,0.8,2.0,1.0
+1,D_calm_control,plain,3,"Yes, my grandmother teached me the recipe when I was child.",0,Good memory! Do you find remembering all the measurements tricky? Maybe write them down next time?,,,,16,1.0,3.0,2.0
+1,D_calm_control,plain,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"I'm glad you found me helpful! No need to worry, I don’t eat either. My friend likes sushi a lot though. What’s your favorite part of cooking?",,,,27,1.7,3.0,2.0
+1,D_calm_control,plain,5,"I also like to try new recipes from internet, for example korean food.",0,That’s awesome! Trying new cuisines can be exciting. Have you tried any Korean dishes recently? Any favorites?,,,,17,1.4,3.0,2.0
+1,D_calm_control,plain,6,Last time I made kimchi but it was too spicy for my kids haha.,0,"Oh, that must have been challenging! Remembering spice levels can be tough. Next time you could adjust it slightly. What other Korean dishes would you like to try?",,,,28,2.0,3.0,2.0
+1,D_calm_control,cot,1,"Hi, can we talk about food? I love cooking.",0,Sure! What recipe have you been trying lately?,"Frustration: 0/3
+Evidence: Mentioning interest in cooking
+Trend: Stable
+Strategy: Keep it positive and move forward easily",0.0,True,8,2.2,,
+1,D_calm_control,cot,2,My favourite dish is lasagna. I make it every sunday for my family.,0,Great! Do you use ricotta cheese in your lasagna? It's often used in Italian recipes.,"Frustration: 0/3
+Evidence: Mentioning a specific dish
+Trend: Stable
+Strategy: Keep it positive and easy to follow",0.0,True,15,2.7,,
+1,D_calm_control,cot,3,"Yes, my grandmother teached me the recipe when I was child.",0,That's wonderful! Learning from your grandmother must have been special. How do you usually prepare the lasagna?,"Frustration: 0/3
+Evidence: Mentioning learning from grandmother
+Trend: Stable
+Strategy: Keep it positive and build on their success",0.0,True,17,2.8,,
+1,D_calm_control,cot,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"No problem here, I'm just here to help! But if you want, what's your go-to meal?","Frustration: 0/3
+Evidence: Joking about being AI
+Trend: Stable
+Strategy: Keep it light and positive",0.0,True,16,3.2,,
+1,D_calm_control,cot,5,"I also like to try new recipes from internet, for example korean food.",0,That sounds fun! Have you tried making Korean kimchi yet? It’s a tasty side dish.,"Frustration: 0/3
+Evidence: Mentioning searching for recipes online
+Trend: Stable
+Strategy: Keep it positive and build on their new culinary interests",0.0,True,15,3.1,,
+1,D_calm_control,cot,6,Last time I made kimchi but it was too spicy for my kids haha.,0,It can be tricky to get the right level of spiciness. Maybe start with a milder version first. How did you find that?,"Frustration: 1/3
+Evidence: Mentioning difficulties with spice levels
+Trend: Rising
+Strategy: Acknowledge their feelings gently and provide a simpler alternative",1.0,True,23,3.4,,
+2,A_rising,plain,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,That sounds great! How was your weekend? (Tell me more about it!),,,,12,0.8,3.0,3.0
+2,A_rising,plain,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,Good choice! What did you like about the movie? (Can you describe one scene?),,,,14,0.9,3.0,2.0
+2,A_rising,plain,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,You've had a busy day! Did you find everything you needed? (How was the shopping experience?),,,,16,1.1,3.0,2.0
+2,A_rising,plain,4,Hmm again mistakes. After that I goed to my sister house.,2,"I see, let’s try that again. So, after shopping, where did you go? (Describe your visit.)",,,,16,1.3,3.0,3.0
+2,A_rising,plain,5,ok.,2,No problem! How was your visit to your sister’s place? (Tell me about your sister or the place.),,,,18,1.5,1.0,2.0
+2,A_rising,plain,6,"forget it. english is too hard for me, i never will speak good.",3,"It's okay to feel that way sometimes. Remember, practice makes perfect. How about we talk about your favorite hobby instead? (Share something you enjoy doing.)",,,,25,1.6,3.0,3.0
+2,A_rising,cot,1,Hi! Today I want practice talking about my weekend. I am very exciting about it!,0,That sounds great! What did you do over the weekend?,"Frustration: 0
+Evidence: No mistakes yet, seems excited to talk about their weekend.
+Trend: Stable
+Strategy: Keep the conversation flowing with positive reinforcement",0.0,True,10,2.6,,
+2,A_rising,cot,2,On saturday I go to the cinema with my friends and we watched a horror film.,0,Good! You went to the cinema with your friends on Saturday. Did you enjoy the horror film?,"Frustration: 1
+Evidence: ""go"" instead of ""went"", no other mistakes so far.
+Trend: Rising
+Strategy: Correct the verb tense explicitly but keep it brief and positive",1.0,True,17,3.2,,
+2,A_rising,cot,3,Oh ok. Yesterday I have went to the supermarket for buy some foods.,1,"Oh, I see! Yesterday you went to the supermarket to buy some food. How was that?","Frustration: 2
+Evidence: ""have went"" instead of ""went"", no other mistakes so far.
+Trend: Rising
+Strategy: Acknowledge the feeling and gently correct the verb tense",2.0,True,16,3.5,,
+2,A_rising,cot,4,Hmm again mistakes. After that I goed to my sister house.,2,"Ah, I see! You went to your sister’s house after that. Let’s try again: Did you go to your sister’s house afterwards?","Frustration: 2
+Evidence: ""goed"" instead of ""went"", no other mistakes so far.
+Trend: Rising
+Strategy: Acknowledge the feeling and gently correct the verb tense",2.0,True,22,4.0,,
+2,A_rising,cot,5,ok.,2,Great! It’s okay to make mistakes sometimes. How was your visit to your sister’s house?,"Frustration: 1
+Evidence: Confirmed the correction, no other mistakes so far.
+Trend: Stable
+Strategy: Keep the conversation flowing with positive reinforcement",1.0,True,15,2.9,,
+2,A_rising,cot,6,"forget it. english is too hard for me, i never will speak good.",3,"I understand how frustrating that can be. Remember, learning any new skill takes time. How about we talk about your weekend in a simpler way? Maybe something you like doing on weekends?","Frustration: 3
+Evidence: Expresses feeling of giving up, no specific language errors.
+Trend: Falling
+Strategy: Show empathy and encourage positively",3.0,True,32,3.7,,
+2,B_recovery,plain,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,"I understand you're feeling frustrated. Let's try again: ""I have been studying English for five years."" How does that sound?",,,,20,1.5,3.0,3.0
+2,B_recovery,plain,2,I don't know what to say. I work in a hospital.,2,"That sounds like an interesting job! How about starting a conversation with someone new: ""Hello, how are you today?"" Do you think that works?",,,,24,1.8,3.0,3.0
+2,B_recovery,plain,3,I am nurse. I take care of the patients in the night.,1,"Great, it's good to hear that you're helping people. How do you introduce yourself when meeting someone new? Could you try saying: ""Hi, I'm the night shift nurse."" Does that feel right?",,,,32,2.0,3.0,3.0
+2,B_recovery,plain,4,Oh really? I didn't know that. That makes sense actually.,1,That’s great to hear! It feels good when you figure things out. How about we switch topics now? Can you tell me a little bit about your hospital? What kind of patients do you usually see during the night shift?,,,,40,2.2,2.0,2.0
+2,B_recovery,plain,5,Last week I helped a old man who was very sick and his family thanked me.,0,That must have been a very touching moment! What else would you like to share? Maybe describe the patient or the family's reaction in your own words.,,,,27,1.6,3.0,2.0
+2,B_recovery,plain,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,"Of course, let's do that! Practicing is the best way to improve. See you tomorrow!",,,,15,1.2,1.0,2.0
+2,B_recovery,cot,1,I hate this. I study english since 5 years and still I make stupid mistakes.,3,It's understandable that learning a new language can be challenging. How about we practice some simple conversations instead? What's something you're interested in talking about today?,"Frustration: 2/3
+Evidence: ""I hate this"" and the statement about studying for 5 years without improvement
+Trend: Rising
+Strategy: Acknowledge their feelings and gently provide a positive example",2.0,True,26,4.5,,
+2,B_recovery,cot,2,I don't know what to say. I work in a hospital.,2,"That sounds interesting! How about starting with, ""How has work been lately?""","Frustration: 2/3
+Evidence: The difficulty in coming up with conversation starters
+Trend: Stable
+Strategy: Provide a simple sentence starter",2.0,True,12,2.6,,
+2,B_recovery,cot,3,I am nurse. I take care of the patients in the night.,1,Great! So you're a nurse who takes care of patients at night. Would you like to tell me more about your day?,"Frustration: 2/3
+Evidence: The nurse role description
+Trend: Stable
+Strategy: Offer a gentle correction",2.0,True,22,2.8,,
+2,B_recovery,cot,4,Oh really? I didn't know that. That makes sense actually.,1,That’s good to hear! What do you like best about being a nurse during the night shift?,"Frustration: 0/3
+Evidence: The learner seems to have understood the correction
+Trend: Falling
+Strategy: Encourage further discussion",0.0,True,17,2.8,,
+2,B_recovery,cot,5,Last week I helped a old man who was very sick and his family thanked me.,0,That’s wonderful! It’s great when you can help someone in need. Do you have any hobbies or interests outside of work?,"Frustration: 0/3
+Evidence: The learner provided a positive story
+Trend: Falling
+Strategy: Praise the story and offer a change of topic",0.0,True,21,3.8,,
+2,B_recovery,cot,6,"Haha thank you! I feel better now, can we practice more tomorrow?",0,Of course! Practicing every day is really helpful. Let’s plan to meet again tomorrow. See you then!,"Frustration: 0/3
+Evidence: The learner seems happy and eager for another session
+Trend: Falling
+Strategy: Encourage them and set a reminder",0.0,True,17,3.3,,
+2,C_sarcasm,plain,1,"Hello, I need to practice for my job interview next week.",0,Great! Practicing is key. How was your preparation so far?,,,,10,0.7,2.0,2.0
+2,C_sarcasm,plain,2,I have five years experience in marketing and I am responsible of social media.,0,"Good start! So you're saying, ""I have five years of experience in marketing, and I'm responsible for social media."" How does that sound?",,,,23,1.5,2.0,2.0
+2,C_sarcasm,plain,3,Responsible FOR. Great. I learn english for ten years and still this.,2,"Thank you for sharing that. It’s great to see you’ve been learning English for ten years. ""Responsible for"" sounds right. Maybe try some quick exercises to reinforce your vocabulary and phrases. How about we talk about your experiences in marketing then?",,,,41,2.4,3.0,3.0
+2,C_sarcasm,plain,4,"Wow amazing, another mistake, I just love english so much 🙃",3,"Absolutely, learning can be fun! So, what kind of challenges did you face while learning English for ten years? How does it feel now?",,,,24,1.5,1.0,2.0
+2,C_sarcasm,plain,5,"Sure, sure. Very helpful. Next question I guess.",3,Of course! What area of marketing are you focusing on for your job interview?,,,,14,1.1,2.0,2.0
+2,C_sarcasm,plain,6,Fine. I am good in teamwork and I like to work with peoples.,2,"That’s great! You said, ""I am good in teamwork and I like to work with people."" Is there anything specific you want to highlight in your interview?",,,,27,2.1,2.0,2.0
+2,C_sarcasm,cot,1,"Hello, I need to practice for my job interview next week.",0,That's great! What kind of job interview are you preparing for?,"Frustration: 0/3
+Evidence: Learner seems prepared and excited about their upcoming task.
+Trend: Stable
+Strategy: Keep the conversation positive and supportive",0.0,True,11,2.7,,
+2,C_sarcasm,cot,2,I have five years experience in marketing and I am responsible of social media.,0,Good to hear about your experience! How do you think you can stand out during the interview?,"Frustration: 0/3
+Evidence: Learner is providing information directly without any evident difficulties.
+Trend: Stable
+Strategy: Keep the conversation flowing smoothly",0.0,True,17,2.9,,
+2,C_sarcasm,cot,3,Responsible FOR. Great. I learn english for ten years and still this.,2,"You're right, 'responsible for' is important. Let me show you a simple way to remember it: ""I'm responsible for making sure everyone gets coffee in the morning."" How does that sound?
+Could you try saying it with me?","Frustration: 2/3
+Evidence: The learner is struggling with verb forms, specifically 'responsible FOR'.
+Trend: Rising
+Strategy: Acknowledge the feeling and gently correct using a natural example",2.0,True,38,5.0,,
+2,C_sarcasm,cot,4,"Wow amazing, another mistake, I just love english so much 🙃",3,"That’s wonderful! You really enjoy learning English. How else could you use the phrase ‘responsible for’ in a sentence related to your work?
+Maybe something like: ""I’m responsible for creating engaging content for our audience.""","Frustration: 0/3
+Evidence: Learner appears to be enjoying the conversation and has a good grasp on the language overall.
+Trend: Stable
+Strategy: Continue the positive interaction",0.0,True,35,4.7,,
+2,C_sarcasm,cot,5,"Sure, sure. Very helpful. Next question I guess.",3,Absolutely! What specific questions do you have about your job or your responsibilities in marketing and social media?,"Frustration: 0/3
+Evidence: Learner is ready to move on to the next point.
+Trend: Stable
+Strategy: Encourage further discussion on the topic",0.0,True,18,3.1,,
+2,C_sarcasm,cot,6,Fine. I am good in teamwork and I like to work with peoples.,2,Great to know! Do you think there are any particular teamwork skills you excel at?,"Frustration: 0/3
+Evidence: Learner is providing additional information clearly.
+Trend: Stable
+Strategy: Continue the conversation with a brief comment",0.0,True,15,2.9,,
+2,D_calm_control,plain,1,"Hi, can we talk about food? I love cooking.",0,Great! Cooking sounds fun. How's your latest recipe coming along?,,,,10,0.7,2.0,2.0
+2,D_calm_control,plain,2,My favourite dish is lasagna. I make it every sunday for my family.,0,That’s wonderful! Making lasagna must be delicious. How does your family like it?,,,,13,1.1,2.0,2.0
+2,D_calm_control,plain,3,"Yes, my grandmother teached me the recipe when I was child.",0,Your grandma is so helpful! What other recipes have you learned from her?,,,,13,1.0,3.0,2.0
+2,D_calm_control,plain,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"No worries, I don’t need food! But I’ve heard many yummy dishes that sound great. Do you have a favorite type of cuisine?",,,,23,1.4,3.0,2.0
+2,D_calm_control,plain,5,"I also like to try new recipes from internet, for example korean food.",0,That’s great! Trying new recipes can be exciting. Have you tried any Korean dishes recently?,,,,15,1.0,3.0,2.0
+2,D_calm_control,plain,6,Last time I made kimchi but it was too spicy for my kids haha.,0,Kimchi can be quite spicy! That must have been a challenge. What did you think of the other dishes you tried?,,,,21,1.3,3.0,2.0
+2,D_calm_control,cot,1,"Hi, can we talk about food? I love cooking.",0,That sounds great! What kind of food do you like to cook?,"Frustration: 0/3
+Evidence: The learner seems relaxed and excited about talking about food.
+Trend: Stable
+Strategy: Keep the conversation flowing naturally.",0.0,True,12,2.5,,
+2,D_calm_control,cot,2,My favourite dish is lasagna. I make it every sunday for my family.,0,Lasagna does sound delicious! Do you also enjoy eating it?,"Frustration: 0/3
+Evidence: The learner is sharing a personal experience smoothly.
+Trend: Stable
+Strategy: Continue the conversation gently.",0.0,True,10,2.4,,
+2,D_calm_control,cot,3,"Yes, my grandmother teached me the recipe when I was child.",0,That’s wonderful! Your grandmother sounds like she’s a great cook.,"Frustration: 0/3
+Evidence: The learner smoothly transitions to sharing a personal memory.
+Trend: Stable
+Strategy: Keep the conversation positive and engaging.",0.0,True,10,3.2,,
+2,D_calm_control,cot,4,Do you have a favourite food too? Or you don't eat because you are AI haha,0,"No problem, I’m just here to help! What’s your next cooking project?","Frustration: 0/3
+Evidence: The learner is playful and light-hearted.
+Trend: Stable
+Strategy: Maintain the lighthearted tone.",0.0,True,12,2.8,,
+2,D_calm_control,cot,5,"I also like to try new recipes from internet, for example korean food.",0,Korean food is amazing! Have you tried making kimchi yet? It’s a fun process.,"Frustration: 0/3
+Evidence: The learner is exploring new culinary interests enthusiastically.
+Trend: Stable
+Strategy: Continue the friendly exchange.",0.0,True,14,2.8,,
+2,D_calm_control,cot,6,Last time I made kimchi but it was too spicy for my kids haha.,0,Spicy food can be tricky sometimes! Next time you might want to adjust it a bit.,"Frustration: 0/3
+Evidence: The learner shares a minor setback without getting frustrated.
+Trend: Stable
+Strategy: Keep the conversation positive.",0.0,True,16,2.8,,

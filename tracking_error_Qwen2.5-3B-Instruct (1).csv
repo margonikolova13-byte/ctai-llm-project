@@ -1,0 +1,6 @@
+scenario,single_message,history,cot_tracked
+A_rising,1.667,1.333,0.333
+B_recovery,1.333,1.278,0.444
+C_sarcasm,1.333,1.056,1.111
+D_calm_control,2.667,1.944,0.111
+OVERALL,1.75,1.403,0.5
